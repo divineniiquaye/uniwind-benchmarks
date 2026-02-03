@@ -1,5 +1,5 @@
 import { useCallback, useLayoutEffect, useState } from 'react'
-import { BENCHMARK_CONFIG, type BenchmarkStats, calculateStats } from './index'
+import { BENCHMARK_CONFIG, type BenchmarkStats, calculateStats } from './util'
 
 export interface UseBenchmarkReturn {
   // State
