@@ -1,0 +1,7 @@
+{
+  "name": "tailwind-babel",
+  "displayName": "tailwind-babel",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.tailwind-babel"
+  }
+}
