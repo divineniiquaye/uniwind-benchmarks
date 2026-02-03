@@ -1,4 +1,7 @@
 {
   "name": "stylesheet",
-  "displayName": "stylesheet"
+  "displayName": "stylesheet",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.stylesheet"
+  }
 }

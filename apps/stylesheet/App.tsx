@@ -23,7 +23,7 @@ function App() {
           <Text style={styles.statsText}>Min: {min.toFixed(2)}ms</Text>
           <Text style={styles.statsText}>Max: {max.toFixed(2)}ms</Text>
           <Text style={styles.statsSubtext}>
-            {itemsCount * 2 + 3} views × {totalRuns} runs
+            {itemsCount} views × {totalRuns} runs
           </Text>
         </View>
       )}
@@ -46,16 +46,17 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 100,
+    marginTop: 80,
     paddingHorizontal: 12,
   },
   scrollView: {
     gap: 8,
     flexDirection: 'row',
     flexWrap: 'wrap',
+    justifyContent: 'space-between',
   },
   item: {
-    width: '32%',
+    width: '30%',
     height: 100,
     borderRadius: 16,
     backgroundColor: '#00a8ff',

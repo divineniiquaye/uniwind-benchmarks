@@ -1,4 +1,7 @@
 {
   "name": "unistyles3",
-  "displayName": "unistyles3"
+  "displayName": "unistyles3",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.unistyles3"
+  }
 }

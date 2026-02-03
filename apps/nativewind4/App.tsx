@@ -9,7 +9,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <View className="flex-1 mt-[100px] px-3">
+      <View className="flex-1 mt-safe-offset-4 px-3">
         <Text className="text-lg text-typography font-bold text-center mb-4">
           Nativewind 4 Benchmark
         </Text>
@@ -38,20 +38,20 @@ function App() {
               Max: {max.toFixed(2)}ms
             </Text>
             <Text className="text-[14px] text-typography text-center mt-2">
-              {itemsCount * 2 + 3} views × {totalRuns} runs
+              {itemsCount} views × {totalRuns} runs
             </Text>
           </View>
         )}
 
         <ScrollView
           key={renderKey}
-          contentContainerClassName="gap-2 flex-row flex-wrap"
+          contentContainerClassName="gap-2 flex-row flex-wrap justify-between"
           showsVerticalScrollIndicator={false}
         >
           {Array.from({ length: itemsCount }, (_, index) => (
             <View
               key={index}
-              className="w-[32%] h-[100px] rounded-2xl bg-primary items-center justify-center"
+              className="w-[30%] h-[100px] rounded-2xl bg-primary items-center justify-center"
             >
               <Text className="text-typography font-bold text-2xl">{index}</Text>
             </View>

@@ -1,4 +1,7 @@
 {
   "name": "uniwindpro",
-  "displayName": "uniwindpro"
+  "displayName": "uniwindpro",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.uniwindpro"
+  }
 }

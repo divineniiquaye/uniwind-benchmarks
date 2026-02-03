@@ -1,3 +1,7 @@
 node_modules
 build
+.expo
+.bundle
+ios
+android
 .DS_Store

@@ -1,4 +1,7 @@
 {
   "name": "nativewind4",
-  "displayName": "nativewind4"
+  "displayName": "nativewind4",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.nativewind4"
+  }
 }
