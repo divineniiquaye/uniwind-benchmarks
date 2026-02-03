@@ -42,9 +42,12 @@ Android
 uniwind-benchmarks/
 ├── apps/                    # React Native applications
 │   ├── nativewind4/        # NativeWind v4 benchmark app
+│   ├── nativewind5/        # NativeWind v5 benchmark app
 │   ├── stylesheet/         # React Native StyleSheet benchmark app
+│   ├── tailwind-babel/     # Tailwind Babel benchmark app
 │   ├── unistyles3/         # Unistyles v3 benchmark app
 │   ├── uniwind/            # Uniwind benchmark app
+│   ├── uniwind-fork/       # Uniwind Fork benchmark app
 │   └── uniwind-pro/        # Uniwind Pro benchmark app
 ├── packages/
 │   └── benchmark/          # Shared benchmark utilities
