@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "nativewind/theme";
+
+:root {
+  --primary: #00a8ff;
+  --gray: #f0f0f0;
+  --typography: #000;
+
+  @variant dark {
+    --primary: #273c75;
+    --gray: #353b48;
+    --typography: #fff;
+  }
+}
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-gray: var(--gray);
+  --color-typography: var(--typography);
+}

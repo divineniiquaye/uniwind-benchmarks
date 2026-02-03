@@ -1,0 +1,7 @@
+{
+  "name": "nativewind5",
+  "displayName": "nativewind5",
+  "ios": {
+    "bundleIdentifier": "com.divineniiquaye.nativewind5"
+  }
+}
